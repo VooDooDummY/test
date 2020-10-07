@@ -13,6 +13,6 @@ let personalMovieDB ={
 let oneOfLastFilms= prompt('Один из последних просмотренных фильмов',''),
     howGoodWasFilm= prompt('На сколько оцените его?','');
 personalMovieDB.movies= {
-    oneOfLastFilms: howGoodWasFilm};
+    oneOfLastFilms, howGoodWasFilm};
 
 console.log(personalMovieDB.movies);
